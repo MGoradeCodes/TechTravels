@@ -55,18 +55,22 @@ a{
 }
 
 #searchbox{
-    position: relative;
-    right: 200px;
+    width: 500px;
+    height: 60px;
+    border-radius: 35px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: none;
+    font-size: 25px;
+    color: white;
+    text-indent: 20px;
+    font-family: "Comic Sans MS";
 
 }
 #searchsign{
-    position: relative;
-    left: 225px;
     color: white;
     font-family: 'CustomFont', Times, serif;
     font-size: 30px;
-    height: 20px;
-    width: 50px;
+    text-align: center;
 }
 
 @font-face {
@@ -77,6 +81,19 @@ a{
 h1{
     font-family: 'CustomFont';
     color: white;
+    text-align: center;
+}
+
+#Booker{
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    background-color: rgba(210, 210, 225, 0.7);
+    border: none;
+}
+
+#Booker:hover{
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 footer{
@@ -87,4 +104,10 @@ footer{
     bottom: 0;
     margin-right: 20px;
     font-weight: bolder;
+}
+
+
+#Reply{
+    color: white;
+    font-family: "CustomFont";
 }
